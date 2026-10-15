@@ -1,0 +1,33 @@
+Redis
+Redis - это свободно распространяемая сервер баз данных типа "ключ - значение".
+
+1. Строка (String) - hello world
+2. Битовый массив (Bitmap) - 0111101100101
+3. Битовое поле (Bitfield) - {32526}{523626}
+4. Хэш-таблица (Hash) - {a: "hello", b: "world"}
+5. Множество (Set) - {A<B<C}
+6. Список (List) - [A>B>C>D]
+7. Упорядоченное множество (Sorted set) - {A:1, B:2, C:3}
+8. Геопространственные данные (Geospatial) - {A:(50.1,60.9)}
+9. Поток (Stream)
+
+Экземпляр Redis
+Redis HA
+Redis Sentinel
+Redis Cluster
+
+TTL
+
+Порт Redis - 6379
+
+
+sudo apt update
+sudo apt install redis-server
+
+/etc/redis/redis.conf
+
+#bind 127.0.0.1
+prodtected-mode no
+
+#requirepass foobared
+requirepass LegendraBrawlStars2025 (раскомментировать)
