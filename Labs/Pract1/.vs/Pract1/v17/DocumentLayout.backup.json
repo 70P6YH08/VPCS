@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\Pract1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7790414C-86CA-4F1F-8087-4271F158BFD3}|Pract1\\Pract1.csproj|c:\\users\\304\\students\\ispp-31\\vpcs\\labs\\pract1\\pract1\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7790414C-86CA-4F1F-8087-4271F158BFD3}|Pract1\\Pract1.csproj|solutionrelative:pract1\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7790414C-86CA-4F1F-8087-4271F158BFD3}|Pract1\\Pract1.csproj|c:\\users\\304\\students\\ispp-31\\vpcs\\labs\\pract1\\pract1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7790414C-86CA-4F1F-8087-4271F158BFD3}|Pract1\\Pract1.csproj|solutionrelative:pract1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7790414C-86CA-4F1F-8087-4271F158BFD3}|Pract1\\Pract1.csproj|c:\\users\\304\\students\\ispp-31\\vpcs\\labs\\pract1\\pract1\\practdbcontext\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7790414C-86CA-4F1F-8087-4271F158BFD3}|Pract1\\Pract1.csproj|solutionrelative:pract1\\practdbcontext\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarService.cs",
+              "DocumentMoniker": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\Pract1\\Pract1\\Services\\CarService.cs",
+              "RelativeDocumentMoniker": "Pract1\\Services\\CarService.cs",
+              "ToolTip": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\Pract1\\Pract1\\Services\\CarService.cs",
+              "RelativeToolTip": "Pract1\\Services\\CarService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T12:35:57.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\Pract1\\Pract1\\PractDbContext\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "Pract1\\PractDbContext\\ApplicationContext.cs",
+              "ToolTip": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\Pract1\\Pract1\\PractDbContext\\ApplicationContext.cs",
+              "RelativeToolTip": "Pract1\\PractDbContext\\ApplicationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T12:35:25.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\Pract1\\Pract1\\Program.cs",
+              "RelativeDocumentMoniker": "Pract1\\Program.cs",
+              "ToolTip": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\Pract1\\Pract1\\Program.cs",
+              "RelativeToolTip": "Pract1\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T11:56:33.589Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
