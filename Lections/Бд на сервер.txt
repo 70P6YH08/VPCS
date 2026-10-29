@@ -1,0 +1,51 @@
+Отличие пакетного менеджера от Ubuntu:
+	- вместо apt -> apk;
+	- install -> add
+
+apk add mariadb mariadb-client
+mysql_instal_db --user=mysql --datadit=/var/lib/mysql
+	(mysql)
+mysql_secure_installation
+
+	(openrc mariadb status)
+
+rc-update add mariadb default
+rc-service mariadb start/restart
+
+MariaDb [(none)]>
+	CREATE USER 'root'@'%' IDENTIFIED BY 'Prosti2000.';
+	GRANT ALL ON *.* TO 'root'@'%';
+	FLUSH PRIVILEGES;
+	
+	CREATE DATABASE act;
+	USE act;
+	CREATE TABLE students(
+		id INT PRIMARY_KEY AUTO_INCREMENT,
+		name VARCHAR(255) NT NULL);
+	
+	Bye
+
+cat .mariadb_history - находится в папке пользователя, показывает историю всех команд в БД
+
+nano /etc/my.cnf.d/mariadb-server.cnf
+rc-service mariadb restart
+
+Ошибка была в том, что было раскомменитровано skip-networking в файле конфигурации
+
+
+
+
+
+
+Установка Postgre:
+	apk add postgresql postr
+	initdb /var/lib/postgresql/data
+	rc-update add postgresql
+	
+
+psql - команды sql:
+	create user root with password 'Prosti2000.';
+	create database act;
+	grant add privileges on database
+
+добавить в файл конфигурации postgresql данные о созданном пользователе вроде

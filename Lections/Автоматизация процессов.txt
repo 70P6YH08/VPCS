@@ -1,0 +1,44 @@
+CI/CD - работает по принципу конвейера
+CI (Continuous Integration)
+CD (Continuous Delivery)
+CD (Continuous Deployment)
+
+Source			Build			Test		Deploy
+git push		docker build		
+
+git init
+git add .
+git commit -m ""
+git remote add origin ""
+git push
+
+action/piplene
+
+runner на том же сайте gitea
+
+gitea-runner-5.2.4-windows-amd64.exe
+
+1) register
+2) https://localhost:8080/
+3) Настройки репозитория -> Действия -> Создать новый раннер -> Копировать регистрационный токен
+4) метка (dotNET например)
+5) daemon команда
+
+.gitea/workflows/ci-cd.yaml - для процесса развёртывания, чтобы добраться до пайплайна
+
+внутри yaml файла:
+	name: ASP.NET Core
+	on:
+	    push:
+	        branches:
+	            -master
+
+	jobs:
+	    build:
+	        runs-on: 304-00
+
+	    steps:
+	        - name: получение исходного кода
+	        uses: actions/checkout@v4
+
+	    run (вместо uses): git --version
