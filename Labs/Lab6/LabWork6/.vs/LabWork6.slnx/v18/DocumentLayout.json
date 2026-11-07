@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\temp\\ispp31\\VPCS\\Labs\\Lab6\\LabWork6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB00D67-EDD5-48B2-A610-0002ABBF24B1}|LabWork6\\LabWork6.csproj|c:\\temp\\ispp31\\vpcs\\labs\\lab6\\labwork6\\labwork6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FB00D67-EDD5-48B2-A610-0002ABBF24B1}|LabWork6\\LabWork6.csproj|solutionrelative:labwork6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB00D67-EDD5-48B2-A610-0002ABBF24B1}|LabWork6\\LabWork6.csproj|c:\\temp\\ispp31\\vpcs\\labs\\lab6\\labwork6\\labwork6\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FB00D67-EDD5-48B2-A610-0002ABBF24B1}|LabWork6\\LabWork6.csproj|solutionrelative:labwork6\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\temp\\ispp31\\VPCS\\Labs\\Lab6\\LabWork6\\LabWork6\\Book.cs",
+              "RelativeDocumentMoniker": "LabWork6\\Book.cs",
+              "ToolTip": "C:\\temp\\ispp31\\VPCS\\Labs\\Lab6\\LabWork6\\LabWork6\\Book.cs",
+              "RelativeToolTip": "LabWork6\\Book.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T07:48:21.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\temp\\ispp31\\VPCS\\Labs\\Lab6\\LabWork6\\LabWork6\\Program.cs",
+              "RelativeDocumentMoniker": "LabWork6\\Program.cs",
+              "ToolTip": "C:\\temp\\ispp31\\VPCS\\Labs\\Lab6\\LabWork6\\LabWork6\\Program.cs",
+              "RelativeToolTip": "LabWork6\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T07:47:37.561Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
