@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\temp\\ispp31\\VPCS\\Labs\\SMTPPractWork6\\SMTPPractWork6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F960966-AF79-2194-E5F5-0774D488C67E}|SMTPPractWork6\\SMTPPractWork6.csproj|c:\\temp\\ispp31\\vpcs\\labs\\smtppractwork6\\smtppractwork6\\smtppractwork6\\converters\\dataconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F960966-AF79-2194-E5F5-0774D488C67E}|SMTPPractWork6\\SMTPPractWork6.csproj|solutionrelative:smtppractwork6\\converters\\dataconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F960966-AF79-2194-E5F5-0774D488C67E}|SMTPPractWork6\\SMTPPractWork6.csproj|c:\\temp\\ispp31\\vpcs\\labs\\smtppractwork6\\smtppractwork6\\smtppractwork6\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F960966-AF79-2194-E5F5-0774D488C67E}|SMTPPractWork6\\SMTPPractWork6.csproj|solutionrelative:smtppractwork6\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F960966-AF79-2194-E5F5-0774D488C67E}|SMTPPractWork6\\SMTPPractWork6.csproj|c:\\temp\\ispp31\\vpcs\\labs\\smtppractwork6\\smtppractwork6\\smtppractwork6\\serivces\\smtpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F960966-AF79-2194-E5F5-0774D488C67E}|SMTPPractWork6\\SMTPPractWork6.csproj|solutionrelative:smtppractwork6\\serivces\\smtpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F960966-AF79-2194-E5F5-0774D488C67E}|SMTPPractWork6\\SMTPPractWork6.csproj|c:\\temp\\ispp31\\vpcs\\labs\\smtppractwork6\\smtppractwork6\\smtppractwork6\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9F960966-AF79-2194-E5F5-0774D488C67E}|SMTPPractWork6\\SMTPPractWork6.csproj|solutionrelative:smtppractwork6\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F960966-AF79-2194-E5F5-0774D488C67E}|SMTPPractWork6\\SMTPPractWork6.csproj|c:\\temp\\ispp31\\vpcs\\labs\\smtppractwork6\\smtppractwork6\\smtppractwork6\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F960966-AF79-2194-E5F5-0774D488C67E}|SMTPPractWork6\\SMTPPractWork6.csproj|solutionrelative:smtppractwork6\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 277,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataConverter.cs",
+              "DocumentMoniker": "C:\\temp\\ispp31\\VPCS\\Labs\\SMTPPractWork6\\SMTPPractWork6\\SMTPPractWork6\\Converters\\DataConverter.cs",
+              "RelativeDocumentMoniker": "SMTPPractWork6\\Converters\\DataConverter.cs",
+              "ToolTip": "C:\\temp\\ispp31\\VPCS\\Labs\\SMTPPractWork6\\SMTPPractWork6\\SMTPPractWork6\\Converters\\DataConverter.cs",
+              "RelativeToolTip": "SMTPPractWork6\\Converters\\DataConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T12:00:40.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SMTPService.cs",
+              "DocumentMoniker": "C:\\temp\\ispp31\\VPCS\\Labs\\SMTPPractWork6\\SMTPPractWork6\\SMTPPractWork6\\Serivces\\SMTPService.cs",
+              "RelativeDocumentMoniker": "SMTPPractWork6\\Serivces\\SMTPService.cs",
+              "ToolTip": "C:\\temp\\ispp31\\VPCS\\Labs\\SMTPPractWork6\\SMTPPractWork6\\SMTPPractWork6\\Serivces\\SMTPService.cs",
+              "RelativeToolTip": "SMTPPractWork6\\Serivces\\SMTPService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T11:23:01.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\temp\\ispp31\\VPCS\\Labs\\SMTPPractWork6\\SMTPPractWork6\\SMTPPractWork6\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "SMTPPractWork6\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\temp\\ispp31\\VPCS\\Labs\\SMTPPractWork6\\SMTPPractWork6\\SMTPPractWork6\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "SMTPPractWork6\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T11:20:45.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\temp\\ispp31\\VPCS\\Labs\\SMTPPractWork6\\SMTPPractWork6\\SMTPPractWork6\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "SMTPPractWork6\\MainWindow.xaml",
+              "ToolTip": "C:\\temp\\ispp31\\VPCS\\Labs\\SMTPPractWork6\\SMTPPractWork6\\SMTPPractWork6\\MainWindow.xaml",
+              "RelativeToolTip": "SMTPPractWork6\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-16T10:57:23.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\temp\\ispp31\\VPCS\\Labs\\SMTPPractWork6\\SMTPPractWork6\\SMTPPractWork6\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SMTPPractWork6\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\temp\\ispp31\\VPCS\\Labs\\SMTPPractWork6\\SMTPPractWork6\\SMTPPractWork6\\MainWindow.xaml.cs",
+              "RelativeToolTip": "SMTPPractWork6\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T10:57:21.58Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
