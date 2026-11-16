@@ -1,40 +1,79 @@
-﻿using MimeKit;
-using SMTPPractWork6.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Net.Mail;
-using System.Text;
+﻿using MailKit;
+using MailKit.Net.Smtp;
+using MimeKit;
+using SMTPPractWork6.Models;
 
 namespace SMTPPractWork6.Serivces
 {
-    public class SMTPService
+    public class SMTPService(LogService logService, MessageService messageService)
     {
+        //private readonly LogService _logService = logService;
+        //private readonly MessageService _messageService = messageService;
 
         //ЛОГИН student[NN]@act29.ru (NN in 1,2,3,4,5,6,7,8,9,10,11,12,13,14)
         //ПАРОЛЬ Arcotel2026.
         //ПОРТ 465
         //ПРИМЕР student1@act29.ru
-        public string host = "student6@act29.ru";
-        public string sender = "no-reply@example.com";
-        public string password = "Arcotel2026.";
-        public int port = 465;
 
-        //private MainViewModel _mainViewModel;
+        private readonly string _senderMailAddress = "student6@act29.ru";
+        private readonly string _password = "Arcotel2026.";
+        private readonly int _port = 465;
+        private readonly string _host = "act29.ru";
 
-        //public SMTPService(MainViewModel mainViewModel)
-        //{
-        //    _mainViewModel = mainViewModel;
-        //}
-
-        public async Task SendMailAsync()
+        public async Task SendMailAsync(Mail mail)
         {
-            SmtpClient smtpClient = new();
+            if (String.IsNullOrWhiteSpace(mail.RecipientMailAddress))
+                throw new ArgumentException(
+                    "Некорректный адрес получателя: ",
+                    nameof(mail)
+                    );
 
             var message = new MimeMessage();
-            message.From.Add(new MailboxAddress("Имя отправителя", sender));
-            message.To.Add(new MailboxAddress("Имя получателя", host));
+            message.From.Add(new MailboxAddress("Имя отправителя", _senderMailAddress));
+            message.To.Add(new MailboxAddress("Имя получателя", mail.RecipientMailAddress.Trim()));
 
-            message.Subject = ""
+            message.Subject = mail.MailSubject ?? string.Empty;
+
+            var messageBody = new BodyBuilder
+            {
+                TextBody = mail.MailMessage
+            };
+
+            message.Body = messageBody.ToMessageBody();
+
+            try
+            {
+                using (SmtpClient smtpClient = new())
+                {
+                    await smtpClient.ConnectAsync(_host, _port);
+
+                    await smtpClient.AuthenticateAsync(_senderMailAddress, _password);
+
+                    await smtpClient.SendAsync(message);
+
+                    await smtpClient.DisconnectAsync(true);
+                }
+
+                await messageService.ShowSuccessSendMessage();
+            }
+
+            catch (SmtpCommandException ex)
+            {
+                await logService.LogExceptionAsync(ex.ToString());
+                await messageService.ShowErrorMessage(ex.Message);
+            }
+
+            catch (SmtpProtocolException ex)
+            {
+                await logService.LogExceptionAsync(ex.ToString());
+                await messageService.ShowErrorMessage(ex.Message);
+            }
+
+            catch (Exception ex)
+            {
+                await logService.LogExceptionAsync(ex.ToString());
+                await messageService.ShowErrorMessage("Не удалось отправить письмо " + ex.Message);
+            }
         }
     }
 }

@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "DuE7KtFqiuQ=",
+  "dgSpecHash": "Myo0/uEzHZo=",
   "success": true,
-  "projectFilePath": "C:\\temp\\ispp31\\VPCS\\Labs\\SMTPPractWork6\\SMTPPractWork6\\SMTPPractWork6\\SMTPPractWork6.csproj",
+  "projectFilePath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\VPCS\\Labs\\SMTPPractWork6\\SMTPPractWork6\\SMTPPractWork6\\SMTPPractWork6.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\0109-06\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512",
-    "C:\\Users\\0109-06\\.nuget\\packages\\mailkit\\5.0.0\\mailkit.5.0.0.nupkg.sha512",
-    "C:\\Users\\0109-06\\.nuget\\packages\\mimekit.core\\5.0.0\\mimekit.core.5.0.0.nupkg.sha512"
+    "C:\\Users\\gorbu\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512",
+    "C:\\Users\\gorbu\\.nuget\\packages\\mailkit\\5.0.0\\mailkit.5.0.0.nupkg.sha512",
+    "C:\\Users\\gorbu\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\11.0.0\\microsoft.extensions.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\gorbu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\11.0.0\\microsoft.extensions.dependencyinjection.abstractions.11.0.0.nupkg.sha512",
+    "C:\\Users\\gorbu\\.nuget\\packages\\mimekit.core\\5.0.0\\mimekit.core.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

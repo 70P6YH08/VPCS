@@ -25,6 +25,25 @@
           }
         }
       },
+      "Microsoft.Extensions.DependencyInjection/11.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "11.0.0"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.26.53018"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/11.0.0": {
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.26.53018"
+          }
+        }
+      },
       "MimeKit.Core/5.0.0": {
         "runtime": {
           "lib/net10.0/MimeKit.Core.dll": {
@@ -49,6 +68,20 @@
       "sha512": "sha512-PG6hnsklTzd/iK9A6j03OxDOas9mh8zOBkbPzcsLmFOODE8Hw3HTy7HAKiJvVHXNpKc3/KMVG/4QvOAKCBbGhA==",
       "path": "mailkit/5.0.0",
       "hashPath": "mailkit.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/11.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KygQMITBDDPXw7+AAgdwQvVAaTXuDsc1iCAuvhO73ERxKX+d92cdbgZmpoYF7DIUq2hfs/yO2KD87uIreRy3MA==",
+      "path": "microsoft.extensions.dependencyinjection/11.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.11.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/11.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a2c4Kp55miXT6G+DSb75pczXQJHgNMzPyZEyMxrrKxuQrgvctcDWJWD9fVe/uGbQdu4Z0c3B7AVKp1DXmD64nQ==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/11.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.11.0.0.nupkg.sha512"
     },
     "MimeKit.Core/5.0.0": {
       "type": "package",

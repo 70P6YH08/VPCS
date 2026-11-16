@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SMTPPractWork6")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cf105df04ce6b19dc2559afbb660770fea38218")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f8777e9431c0c6da11885cfcb783671d3bca01d")]
 [assembly: System.Reflection.AssemblyProductAttribute("SMTPPractWork6")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SMTPPractWork6")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

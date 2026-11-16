@@ -1,0 +1,28 @@
+﻿ОШИБКА: MailKit.Security.SslHandshakeException: An error occurred while attempting to establish an SSL or TLS connection.
+
+The host name (smtp.act29.ru) did not match any of the names given in the server's SSL certificate:
+  • act29.ru
+  • autoconfig.act29.ru
+  • autodiscover.act29.ru
+  • mta-sts.act29.ru
+  • ua-auto-config.act29.ru
+
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.SslHandshakeAsync(SslStream ssl, String host, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.ConnectAsync(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.ConnectAsync(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at SMTPPractWork6.Serivces.SMTPService.SendMailAsync(Mail mail) in C:\Users\gorbu\Desktop\All\collage\4year1semestr\VPCS\Labs\SMTPPractWork6\SMTPPractWork6\SMTPPractWork6\Serivces\SMTPService.cs:line 48
+	[12:00:00 16.11.2026]
+
+
+ОШИБКА: MailKit.Net.Smtp.SmtpCommandException: 4.4.5 Rate limit exceeded, try again later.
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, SendState state, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, SendState state, CancellationToken cancellationToken)
+   at SMTPPractWork6.Serivces.SMTPService.SendMailAsync(Mail mail) in C:\Users\gorbu\Desktop\All\collage\4year1semestr\VPCS\Labs\SMTPPractWork6\SMTPPractWork6\SMTPPractWork6\Serivces\SMTPService.cs:line 57
+	[12:00:00 16.11.2026]
+
+
