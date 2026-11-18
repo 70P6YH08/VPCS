@@ -1,0 +1,51 @@
+﻿<Window x:Class="Task1.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task1"
+        xmlns:converter="clr-namespace:Task1.Converters"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="500"
+        FontSize="20">
+    <Window.Resources>
+        <converter:MailDataConverter x:Key="MailMultiDataConverter"/>
+    </Window.Resources>
+    <Grid Background="#a7e">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel HorizontalAlignment="Left" Grid.Row="0" Margin="0 0 0 5">
+            
+            <TextBlock Text="Адрес эл. почты получателя:" Foreground="White" FontWeight="Bold"/>
+            <TextBox x:Name="mailAddressTextBox" Width="300" TextWrapping="NoWrap" Margin="0 0 0 5" FontSize="16"
+                     Text="{Binding RecipientMailAddress, TargetNullValue='Почта получателя'}"/>
+            
+            <TextBlock Text="Тема письма" Foreground="White" FontWeight="Bold"/>
+            <TextBox x:Name="mailHeaderTextBox"  Width="300" TextWrapping="NoWrap" FontSize="16"
+                     Text="{Binding MailSubject, TargetNullValue='Тема письма'}"/>
+            
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Left" Grid.Row="1" Margin="0 0 0 5">
+            <TextBlock Text="Текст сообщения" Foreground="White" FontWeight="Bold"/>
+            <TextBox x:Name="mailMessageTextBox"  Width="400" TextWrapping="WrapWithOverflow" MinLines="5" FontSize="14"
+                     Text="{Binding MailMessage, TargetNullValue='Сообщение'}"/>
+        </StackPanel>
+        
+        <Button HorizontalAlignment="Left" Content="Отправить" Width="130" Grid.Row="2"
+                Foreground="White" FontWeight="Bold" Background="#85c"
+                Command="{Binding SendMessageCommand}">
+            <Button.CommandParameter>
+                <MultiBinding Converter="{StaticResource MailMultiDataConverter}">
+                    <Binding ElementName="mailAddressTextBox" Path="Text"/>
+                    <Binding ElementName="mailHeaderTextBox" Path="Text"/>
+                    <Binding ElementName="mailMessageTextBox" Path="Text"/>
+                </MultiBinding>
+            </Button.CommandParameter>
+        </Button>
+    </Grid>
+</Window>
