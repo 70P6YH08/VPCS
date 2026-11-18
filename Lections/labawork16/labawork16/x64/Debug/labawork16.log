@@ -1,4 +1,0 @@
-﻿  labawork16.cpp
-C:\Users\304\Students\ispp-31\VPCS\Lections\labawork16\labawork16\labawork16.cpp(9,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\304\Students\ispp-31\VPCS\Lections\labawork16\labawork16\labawork16.cpp(30,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  labawork16.vcxproj -> C:\Users\304\Students\ispp-31\VPCS\Lections\labawork16\x64\Debug\labawork16.exe

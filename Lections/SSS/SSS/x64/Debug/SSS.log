@@ -1,7 +1,0 @@
-﻿  SSS.cpp
-C:\Users\304\Students\ispp-31\VPCS\Lections\SSS\SSS\SSS.cpp(20,9): error C3861: setAge: идентификатор не найден
-C:\Users\304\Students\ispp-31\VPCS\Lections\SSS\SSS\SSS.cpp(33,5): error C2017: недопустимая escape-последовательность
-C:\Users\304\Students\ispp-31\VPCS\Lections\SSS\SSS\SSS.cpp(33,7): error C2001: newline в константе
-C:\Users\304\Students\ispp-31\VPCS\Lections\SSS\SSS\SSS.cpp(33,6): error C2065: n: необъявленный идентификатор
-C:\Users\304\Students\ispp-31\VPCS\Lections\SSS\SSS\SSS.cpp(33,7): error C2143: синтаксическая ошибка: отсутствие ";" перед "строка"
-C:\Users\304\Students\ispp-31\VPCS\Lections\SSS\SSS\SSS.cpp(34,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
