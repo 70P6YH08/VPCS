@@ -17,10 +17,10 @@ namespace Task3.Services
         //ПОРТ 465
         //ПРИМЕР student1@act29.ru
 
-        private readonly string _senderMailAddress = "student8@act29.ru";
+        private readonly string _senderMailAddress = "student8@gmail.com";
         private readonly string _password = "Arcotel2026.";
         private readonly int _port = 465;
-        private readonly string _host = "act29.ru";
+        private readonly string _host = "smtp.gmail.com";
 
         public DateTime start;
         public int code;

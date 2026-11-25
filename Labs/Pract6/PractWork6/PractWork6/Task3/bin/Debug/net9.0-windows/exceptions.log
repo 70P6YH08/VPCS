@@ -2,3 +2,33 @@
 	[12:00:00 21.11.2026]
 
 
+ОШИБКА: MailKit.Net.Smtp.SmtpProtocolException: The SMTP server has unexpectedly disconnected.
+   at MailKit.Net.Smtp.SmtpStream.ReadAheadAsync(CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpStream.ReadResponseAsync(SmtpCommand command, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpStream.SendCommandAsync(SmtpCommand command, String commandText, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.SendCommandInternalAsync(SmtpCommand command, String commandText, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at Task3.Services.SMTPService.SendMailAsync(String mail) in C:\Users\304\Students\ispp-31\VPCS\Labs\Pract6\PractWork6\PractWork6\Task3\Services\SMTPService.cs:line 66
+	[12:00:00 25.11.2026]
+
+
+ОШИБКА: MailKit.Net.Smtp.SmtpProtocolException: The SMTP server has unexpectedly disconnected.
+   at MailKit.Net.Smtp.SmtpStream.ReadAheadAsync(CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpStream.ReadResponseAsync(SmtpCommand command, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpStream.SendCommandAsync(SmtpCommand command, String commandText, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.SendCommandInternalAsync(SmtpCommand command, String commandText, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at Task3.Services.SMTPService.SendMailAsync(String mail) in C:\Users\304\Students\ispp-31\VPCS\Labs\Pract6\PractWork6\PractWork6\Task3\Services\SMTPService.cs:line 66
+	[12:00:00 25.11.2026]
+
+
+ОШИБКА: MailKit.Net.Smtp.SmtpProtocolException: The SMTP server has unexpectedly disconnected.
+   at MailKit.Net.Smtp.SmtpStream.ReadAheadAsync(CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpStream.ReadResponseAsync(SmtpCommand command, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpStream.SendCommandAsync(SmtpCommand command, String commandText, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.SendCommandInternalAsync(SmtpCommand command, String commandText, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at Task3.Services.SMTPService.SendMailAsync(String mail) in C:\Users\304\Students\ispp-31\VPCS\Labs\Pract6\PractWork6\PractWork6\Task3\Services\SMTPService.cs:line 66
+	[12:00:00 25.11.2026]
+
+

@@ -1,20 +1,20 @@
 ﻿Task3
-1.0.0.0
+
 
 winexe
 C#
 .cs
-C:\Users\gorbu\Desktop\All\collage\4year1semestr\VPCS\Labs\Pract6\PractWork6\PractWork6\Task3\obj\Debug\net9.0-windows\
+C:\Users\304\Students\ispp-31\VPCS\Labs\Pract6\PractWork6\PractWork6\Task3\obj\Debug\net9.0-windows\
 Task3
 none
 false
-TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\gorbu\Desktop\All\collage\4year1semestr\VPCS\Labs\Pract6\PractWork6\PractWork6\Task3\App.xaml
+TRACE;DEBUG;NET;NET9_0;NETCOREAPP
+C:\Users\304\Students\ispp-31\VPCS\Labs\Pract6\PractWork6\PractWork6\Task3\App.xaml
 2-324490113
 
-15-26039732
-205-272926303
+13721215826
+2061177868592
 Views\AuthorizationWindow.xaml;Views\MainWindow.xaml;
 
-True
+False
 

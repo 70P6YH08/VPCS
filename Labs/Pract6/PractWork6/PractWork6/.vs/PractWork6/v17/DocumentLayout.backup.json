@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\PractWork6\\LabWork6\\",
+  "WorkspaceRootPath": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\Pract6\\PractWork6\\PractWork6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31A134AF-4658-468B-9F79-975A4F298AED}|Task2\\Task2.csproj|c:\\users\\304\\students\\ispp-31\\vpcs\\labs\\practwork6\\labwork6\\task2\\services\\smtpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31A134AF-4658-468B-9F79-975A4F298AED}|Task2\\Task2.csproj|solutionrelative:task2\\services\\smtpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3C063AE-ABDA-415A-AF01-BA8C1F89E4F3}|Task3\\Task3.csproj|c:\\users\\304\\students\\ispp-31\\vpcs\\labs\\pract6\\practwork6\\practwork6\\task3\\services\\smtpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C063AE-ABDA-415A-AF01-BA8C1F89E4F3}|Task3\\Task3.csproj|solutionrelative:task3\\services\\smtpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31A134AF-4658-468B-9F79-975A4F298AED}|Task2\\Task2.csproj|c:\\users\\304\\students\\ispp-31\\vpcs\\labs\\practwork6\\labwork6\\task2\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{31A134AF-4658-468B-9F79-975A4F298AED}|Task2\\Task2.csproj|solutionrelative:task2\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B3C063AE-ABDA-415A-AF01-BA8C1F89E4F3}|Task3\\Task3.csproj|c:\\users\\304\\students\\ispp-31\\vpcs\\labs\\pract6\\practwork6\\practwork6\\task3\\viewmodels\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C063AE-ABDA-415A-AF01-BA8C1F89E4F3}|Task3\\Task3.csproj|solutionrelative:task3\\viewmodels\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31A134AF-4658-468B-9F79-975A4F298AED}|Task2\\Task2.csproj|c:\\users\\304\\students\\ispp-31\\vpcs\\labs\\practwork6\\labwork6\\task2\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31A134AF-4658-468B-9F79-975A4F298AED}|Task2\\Task2.csproj|solutionrelative:task2\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3C063AE-ABDA-415A-AF01-BA8C1F89E4F3}|Task3\\Task3.csproj|c:\\users\\304\\students\\ispp-31\\vpcs\\labs\\pract6\\practwork6\\practwork6\\task3\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C063AE-ABDA-415A-AF01-BA8C1F89E4F3}|Task3\\Task3.csproj|solutionrelative:task3\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31A134AF-4658-468B-9F79-975A4F298AED}|Task2\\Task2.csproj|c:\\users\\304\\students\\ispp-31\\vpcs\\labs\\practwork6\\labwork6\\task2\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31A134AF-4658-468B-9F79-975A4F298AED}|Task2\\Task2.csproj|solutionrelative:task2\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3C063AE-ABDA-415A-AF01-BA8C1F89E4F3}|Task3\\Task3.csproj|c:\\users\\304\\students\\ispp-31\\vpcs\\labs\\pract6\\practwork6\\practwork6\\task3\\views\\authorizationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B3C063AE-ABDA-415A-AF01-BA8C1F89E4F3}|Task3\\Task3.csproj|solutionrelative:task3\\views\\authorizationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C063AE-ABDA-415A-AF01-BA8C1F89E4F3}|Task3\\Task3.csproj|c:\\users\\304\\students\\ispp-31\\vpcs\\labs\\pract6\\practwork6\\practwork6\\task3\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B3C063AE-ABDA-415A-AF01-BA8C1F89E4F3}|Task3\\Task3.csproj|solutionrelative:task3\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,55 +33,69 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MessageService.cs",
-              "DocumentMoniker": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\PractWork6\\LabWork6\\Task2\\Services\\MessageService.cs",
-              "RelativeDocumentMoniker": "Task2\\Services\\MessageService.cs",
-              "ToolTip": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\PractWork6\\LabWork6\\Task2\\Services\\MessageService.cs",
-              "RelativeToolTip": "Task2\\Services\\MessageService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-18T08:31:17.387Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "SMTPService.cs",
-              "DocumentMoniker": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\PractWork6\\LabWork6\\Task2\\Services\\SMTPService.cs",
-              "RelativeDocumentMoniker": "Task2\\Services\\SMTPService.cs",
-              "ToolTip": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\PractWork6\\LabWork6\\Task2\\Services\\SMTPService.cs",
-              "RelativeToolTip": "Task2\\Services\\SMTPService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAWwDkAAAAMAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\Pract6\\PractWork6\\PractWork6\\Task3\\Services\\SMTPService.cs",
+              "RelativeDocumentMoniker": "Task3\\Services\\SMTPService.cs",
+              "ToolTip": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\Pract6\\PractWork6\\PractWork6\\Task3\\Services\\SMTPService.cs*",
+              "RelativeToolTip": "Task3\\Services\\SMTPService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-18T07:52:43.161Z",
+              "WhenOpened": "2026-11-25T06:57:31.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\PractWork6\\LabWork6\\Task2\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "Task2\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\PractWork6\\LabWork6\\Task2\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "Task2\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAwDMAAAANAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\Pract6\\PractWork6\\PractWork6\\Task3\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "Task3\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\Pract6\\PractWork6\\PractWork6\\Task3\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "Task3\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAewCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-18T07:52:04.172Z",
+              "WhenOpened": "2026-11-18T08:58:56.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\PractWork6\\LabWork6\\Task2\\Views\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Task2\\Views\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\PractWork6\\LabWork6\\Task2\\Views\\MainWindow.xaml",
-              "RelativeToolTip": "Task2\\Views\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-11-18T07:50:56.647Z",
+              "Title": "AuthorizationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\Pract6\\PractWork6\\PractWork6\\Task3\\ViewModels\\AuthorizationViewModel.cs",
+              "RelativeDocumentMoniker": "Task3\\ViewModels\\AuthorizationViewModel.cs",
+              "ToolTip": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\Pract6\\PractWork6\\PractWork6\\Task3\\ViewModels\\AuthorizationViewModel.cs",
+              "RelativeToolTip": "Task3\\ViewModels\\AuthorizationViewModel.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T08:54:55.139Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorizationWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\Pract6\\PractWork6\\PractWork6\\Task3\\Views\\AuthorizationWindow.xaml",
+              "RelativeDocumentMoniker": "Task3\\Views\\AuthorizationWindow.xaml",
+              "ToolTip": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\Pract6\\PractWork6\\PractWork6\\Task3\\Views\\AuthorizationWindow.xaml",
+              "RelativeToolTip": "Task3\\Views\\AuthorizationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-18T08:52:52.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\Pract6\\PractWork6\\PractWork6\\Task3\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Task3\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\304\\Students\\ispp-31\\VPCS\\Labs\\Pract6\\PractWork6\\PractWork6\\Task3\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "Task3\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-18T08:49:52.472Z"
             }
           ]
         }
